@@ -1,0 +1,23 @@
+.countdown-time {
+  @apply border-[1px] border-[var(--gray-400)] min-h-fit text-[#F5F5F5] rounded-b-none overflow-hidden rounded-lg relative bg-[var(--primary-color)];
+
+  .title {
+    @apply py-4 w-fit mx-auto text-lg font-bold;
+  }
+
+  .pi-question-circle {
+    @apply absolute top-2 right-2 text-black;
+  }
+
+  .wrapper {
+    @apply flex gap-3 py-2 items-center rounded-lg rounded-b-none text-start justify-center bg-white text-black;
+
+    .pi-stopwatch {
+      @apply text-4xl;
+    }
+
+    .time-left {
+      @apply font-semibold text-[var(--error-color)];
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.custom-button {
+  @apply min-h-[46px] max-h-[46px] px-4 border-[0px] flex items-center !text-[#F5F5F5] hover:!text-[#F5F5F5] rounded-lg text-base font-semibold hover:bg-green-400 !border-[0px] hover:!border-none  transition-all hover:translate-y-[2px] min-w-[90px] !bg-[var(--primary-color)];
+
+  &.btn-cancel {
+    @apply hover:!bg-gray-200 border-none !bg-[var(--gray-400)]  !text-black hover:!text-black;
+  }
+
+  &.btn-outline {
+    @apply hover:!text-white !border-[1px] hover:!bg-[var(--primary-color)] !bg-transparent !border-[var(--primary-color)] !text-[var(--primary-color)];
+  }
+}

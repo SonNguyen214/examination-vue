@@ -1,0 +1,24 @@
+.calculator {
+  @apply mx-auto h-[480px] rounded-lg shadow-lg relative flex flex-col justify-end overflow-hidden;
+
+  .name {
+    @apply absolute text-sm text-[#dbdbdb] bg-[#333] top-2 left-1/2 -translate-x-1/2 border px-2 border-[var(--gray-400)] rounded-2xl;
+  }
+
+  .last-expression {
+    @apply text-right rounded text-base text-gray-600 mr-5;
+  }
+
+  .input-value {
+    @apply p-5 pt-1 text-right rounded text-3xl break-words min-h-[36px];
+  }
+
+  .group-button {
+    @apply grid grid-cols-4 gap-1 w-full rounded-2xl select-none;
+
+    button {
+      @apply p-3 rounded text-2xl cursor-pointer hover:bg-gray-200 text-black transition-all bg-gray-100;
+      transition: background 0.2s ease-in-out;
+    }
+  }
+}

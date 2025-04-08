@@ -1,0 +1,47 @@
+{
+  "homepage": {
+    "title_history": "History Exam",
+    "title_physical": "Physics Exam",
+    "summary": {
+      "text": "Summary",
+      "des_history": "The History exam evaluates important events, figures, and historical developments.",
+      "des_physical": "The Physics exam assesses knowledge of physical laws, principles, and problem-solving "
+    },
+    "duration": {
+      "text": "Duration"
+    },
+    "status": {
+      "text": "Status",
+      "finish": "Completed",
+      "un_finish": "Not Completed"
+    }
+  },
+  "minutes": "Minutes",
+  "progress": "Exam Progress",
+  "start_exam": "Start Exam",
+  "go_back": "Go Back",
+  "submitted": "Your exam has been submitted",
+  "total_point": "Your Score",
+  "retake": "Retake",
+  "exam_page": {
+    "change_font": "Change Font Size",
+    "total_questions": "Total Questions",
+    "questions_answered": "Answered ",
+    "remaining_questions": "Unanswered ",
+    "your_answers": "Your Answers",
+    "total_time": "Total Exam Time",
+    "remaining_time": "Remaining Time",
+    "submit_exam": "Submit Exam",
+    "answered_full": "All Questions Answered",
+    "calculator": "Calculator"
+  },
+  "out_of_time": "You have run out of time",
+  "confirm_submit": "Are you sure you want to submit the exam?",
+  "warn_submit": "You will not be able to edit your exam after submission!",
+  "retake_exam": "Are you sure you want to retake the exam?",
+  "notice": "Notice",
+  "cancel": "Cancel",
+  "page_error_text": "An error occurred while loading the page...",
+  "back_to_home": "Back to home",
+  "invalid_screen_size": "Invalid screen size"
+}

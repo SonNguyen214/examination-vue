@@ -1,0 +1,47 @@
+{
+  "homepage": {
+    "title_history": "역사 시험",
+    "title_physical": "물리 시험",
+    "summary": {
+      "text": "요약",
+      "des_history": "역사 시험은 중요한 사건, 인물 및 역사적 발전을 평가합니다.",
+      "des_physical": "물리 시험은 물리 법칙, 원리 및 문제 해결 능력을 평가합니다."
+    },
+    "duration": {
+      "text": "시험 시간"
+    },
+    "status": {
+      "text": "상태",
+      "finish": "완료됨",
+      "un_finish": "미완료"
+    }
+  },
+  "minutes": "분",
+  "progress": "시험 진행 상태",
+  "start_exam": "시험 시작",
+  "go_back": "돌아가기",
+  "submitted": "시험이 제출되었습니다",
+  "total_point": "총 점수",
+  "retake": "다시 시험 보기",
+  "exam_page": {
+    "change_font": "글자 크기 변경",
+    "total_questions": "총 문항 수",
+    "questions_answered": "답변한 문항 수",
+    "remaining_questions": "남은 문항 수",
+    "your_answers": "내 답변",
+    "total_time": "총 시험 시간",
+    "remaining_time": "남은 시간",
+    "submit_exam": "시험 제출",
+    "answered_full": "모든 문항 답변 완료",
+    "calculator": "계산기"
+  },
+  "out_of_time": "시험 시간이 종료되었습니다",
+  "confirm_submit": "시험을 제출하시겠습니까?",
+  "warn_submit": "시험을 제출하면 수정할 수 없습니다!",
+  "retake_exam": "시험을 다시 보시겠습니까?",
+  "notice": "알림",
+  "cancel": "취소",
+  "page_error_text": "페이지를 불러오는 동안 오류가 발생했습니다...",
+  "back_to_home": "홈으로 돌아가기",
+  "invalid_screen_size": "잘못된 화면 크기"
+}

@@ -1,0 +1,58 @@
+@use "./layout/page-layout.scss";
+@use "./responsive.scss";
+@use "./custom/notification.scss";
+@use "./custom/pagination.scss";
+@use "./custom/loading.scss";
+@use "./custom/countdown-time.scss";
+@use "./custom/calculator.scss";
+@use "./custom/custom-button.scss";
+@use "./custom/custom-modal.scss";
+@use "./components/exam.scss";
+
+@font-face {
+  font-family: "Nunito";
+  src: url("@/assets/font/Nunito-font.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+:root {
+  --primary-color: #009c3a;
+  --seconde-color: #bbf7d0;
+  --color-darker: #056608;
+  --gray-400: #d1d5dc;
+  --error-color: #d9252a;
+  --bg-color: #fff;
+  --text-black: #333;
+  --text-white: #f5f5f5;
+}
+
+:root[class="my-app-dark"] {
+  --bg-color: #000;
+  --text-black: #f5f5f5;
+  --text-white: #333;
+}
+
+body {
+  @apply subpixel-antialiased tracking-wider text-balance overscroll-none bg-[var(--bg-color)];
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgb(186, 186, 186);
+}

@@ -1,0 +1,23 @@
+.p-toast {
+  @apply h-fit;
+
+  .p-toast-message {
+    @apply px-5 py-3;
+  }
+
+  .p-toast-message-content {
+    @apply items-center gap-7;
+
+    .p-toast-message-text {
+      @apply block;
+    }
+  }
+}
+
+.p-tooltip {
+  @apply text-base;
+
+  .p-tooltip-text {
+    @apply text-xs;
+  }
+}

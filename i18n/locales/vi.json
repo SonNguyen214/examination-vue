@@ -1,0 +1,47 @@
+{
+  "homepage": {
+    "title_history": "Bài thi môn Lịch sử",
+    "title_physical": "Bài thi môn Vật lý",
+    "summary": {
+      "text": "Tóm tắt",
+      "des_history": "Bài thi Lịch sử đánh giá các sự kiện quan trọng, nhân vật và quá trình phát triển lịch sử.",
+      "des_physical": "Bài thi Lịch sử đánh giá các sự kiện quan trọng, nhân vật và quá trình phát triển lịch sử."
+    },
+    "duration": {
+      "text": "Thời gian"
+    },
+    "status": {
+      "text": "Trạng thái ",
+      "finish": "Đã hoàn thành ",
+      "un_finish": "Chưa hoàn thành "
+    }
+  },
+  "minutes": "Phút",
+  "progress": "Tiến trình làm bài",
+  "start_exam": "Bắt đầu làm bài",
+  "go_back": "Trở lại",
+  "submitted": "Bài kiểm tra của bạn đã được nộp",
+  "total_point": "Điểm của bạn",
+  "retake": "Làm lại",
+  "exam_page": {
+    "change_font": "Thay đổi kích cỡ chữ",
+    "total_questions": "Tổng số câu hỏi",
+    "questions_answered": "Số câu đã trả lời",
+    "remaining_questions": "Số câu chưa trả lời",
+    "your_answers": "Câu trả lời của bạn",
+    "total_time": "Thời gian làm bài",
+    "remaining_time": "Thời gian còn lại",
+    "submit_exam": "Nộp bài",
+    "answered_full": "Đã trả lời hết",
+    "calculator": "Máy tính"
+  },
+  "out_of_time": "Bạn đã hết thời gian làm bài",
+  "confirm_submit": "Bạn có chắn chắn nộp bài không?",
+  "warn_submit": "Bạn sẽ không thể sửa bài thi nếu nhấn nộp bài!",
+  "retake_exam": "Bạn có chắc muốn làm lại bài thi không?",
+  "notice": "Chú ý",
+  "cancel": "Huỷ",
+  "page_error_text": "Xảy ra lỗi trong quá trình tải trang...",
+  "back_to_home": "Trở về trang chủ",
+  "invalid_screen_size": "Kích thước màn hình không hợp lệ"
+}
